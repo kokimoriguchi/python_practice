@@ -8,6 +8,7 @@ class Card:
 
     # __init__はクラスの新しいインスタンスが作成される際に自動で呼び出し初期化している
     # rubyでゆうところのinitializeになると思う
+    # selfはインスタンス自身を指す. つまり、self.suitはインスタンスのsuitを指す
     def __init__(self, suit, rank):
         self.suit = suit
         self.rank = rank
